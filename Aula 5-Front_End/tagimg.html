@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Imagem</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="tagh.html">Tags de títulos</a></li>
+                <li><a href="tagp.html">Tags de parágrafo</a></li>
+                <li><a href="taga.html">Tags de link</a></li>
+                <li><a href="tagli.html">Tags de lista</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Tag de Imagem</h1>
+        <p>A tag de imagem, &lt;img&gt;, é utilizada para inserir imagens de uma página web. Ela possui algumas
+            configurações importantes que devem ser feitas.</p>
+        <p>Toda tag &lt;img&gt precisa de um valor para o atributo src, que deve ser a URL com o caminho da imagem a ser
+            exibida. Esse caminho pode ser uma URL de uma imagem na internet, ou o caminho de uma imagem que está em
+            alguma pasta do mesmo computador na qual a página está salva. Por organização o ideal é que a imagem a ser
+            usada esteja na mesma pasta da página web (arquivo .html), ou em uma subpasta que agrupa as imagens do site
+            (por exemplo, "imagens"). </p>
+        <p>Também é importante definir um valor para o atributo alt (texto alternativo), que será exibido quando não for
+            possível exibir a imagem. Também é importante para a acessibilidade, pois quem não enxerga consegue ter
+            acesso ao mesmo conteúdo da imagem. Caso a imagem seja apenas decorativa, ou seja, para implementar o design
+            da página, pode-ser usar um valor vazio ("").</p>
+        <p>Outro atributo que pode ser interessante usar é o title, que definir um texto com algum conteúdo sobre a
+            imagem que será exibido quando usuário passar o cursor em cima da imagem.</p>
+        <p>É possível definir a largura e a altura da imagem diretamente pelo HTML (através dos atributos width e
+            height). Mas o ideal é usar o atributo style e definir o tamanho da imagem com as propriedades do CSS.</p>
+        <p>A seguir, alguns exemplos de uso da tag &lt;img&gt;:</p>
+
+        <figure>
+            <img src="https://ciclovivo.com.br/wp-content/uploads/2018/10/iStock-536613027.jpg" alt="Image Not Found" style="width: 200px;">
+            <figcaption>Exemplo de uso da tag img com valor do src apontando para uma URL da internet.</figcaption>
+            <img src="./fotos/FirstTry.jpg" alt="Foto de um gato" style="width: 200px">
+            <figcaption>Exemplo de uso da tag img com valor do src apontando para um arquivo dentro do próprio repositório.</figcaption>
+        </figure>
+
+    </main>
+</body>
+
+</html>
