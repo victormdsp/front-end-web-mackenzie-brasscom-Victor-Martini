@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+        <form>
+            <label for="nome"> Nome: </label>
+            <input type="text" id = "nome">
+            <br>
+            <label for="sobrenome"> Sobrenome: </label>
+            <input type="text" id="sobrenome">
+            <br>
+            <input type="submit" value="Confirmar">
+        </form>
+
+        <h2>Atributos da tag form</h2>
+        <form action="/cadastro/novo" target="_blank" autocomplete="off">
+            <label for="input-nome">Nome:</label>
+            <input type="text" name="nome" id="input-nome">
+            <br>
+            <label for="input-sobrenome">Sobrenome:</label>
+            <input type="text" id="input-sobrenome">
+            <br>
+            <input type="submit" value="Confirmar">
+        </form>
+
+        <h2>Lista de seleção</h2>
+        <form action="">
+            <label for="carro">Selecione um carro:</label>
+            <select id="carro" name="carro">
+                <option value="volvo">Volvo</option>
+                <option value="fox">Fox</option>
+                <option value="ka">Ká</option>
+                <option value="celta">Celta</option>
+                <option value="corsa">Corsa</option>
+            </select>
+        </form>
+
+        <h2>Caixa de texto</h2>
+        <form action="">
+            <label for="caixa-text">Conte-me um pouco sobre você: </label>
+            <br>
+            <textarea id="caixa-text" cols="30" rows="10">Texto Padrão</textarea>
+            <button type="button" onclick = "alert('Mensagem')"> Clique em mim.</button>
+        </form>
+    </header>
+</body>
+</html>
